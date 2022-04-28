@@ -1,0 +1,18 @@
+.container-fluid, .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 50%;
+        flex-wrap: wrap;
+
+        .card {
+            width: 15%;
+            gap: 15px;
+            background-color: lightgray;
+            text-align: center;
+        }
+    }
+}
